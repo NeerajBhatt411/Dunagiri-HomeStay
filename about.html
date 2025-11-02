@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Panchvati Hills Homestay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="font-sans bg-gray-50 text-gray-800">
+    <!-- same header/nav as index -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-6 md:px-12 flex items-center justify-between py-4"
+      >
+        <a href="index.html" class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 rounded-full bg-green-700 flex items-center justify-center text-white font-bold"
+          >
+            PH
+          </div>
+          <div>
+            <h1 class="text-xl md:text-2xl font-bold text-green-700">
+              Panchvati Hills Homestay
+            </h1>
+            <p class="text-xs text-gray-500 -mt-1">
+              Find Peace Where Gods Once Walked
+            </p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center space-x-6 font-medium">
+          <a href="index.html" class="text-gray-800 hover:text-green-600"
+            >Home</a
+          >
+          <a href="about.html" class="text-gray-800 hover:text-green-600"
+            >About</a
+          >
+          <a href="gallery.html" class="text-gray-800 hover:text-green-600"
+            >Gallery</a
+          >
+          <a href="contact.html" class="text-gray-800 hover:text-green-600"
+            >Contact</a
+          >
+        </nav>
+
+        <button id="menu-btn" class="md:hidden">
+          <svg
+            class="w-6 h-6 text-green-700"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div id="menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-6 pb-4 pt-3 space-y-2">
+          <a href="index.html" class="block font-medium">Home</a>
+          <a href="about.html" class="block font-medium">About</a>
+          <a href="gallery.html" class="block font-medium">Gallery</a>
+          <a href="contact.html" class="block font-medium">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="py-16 bg-gradient-to-r from-green-50 to-white">
+      <div class="container mx-auto px-6 md:px-12">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-green-700 mb-4">
+              About Panchvati Hills Homestay
+            </h2>
+            <p class="text-gray-700 mb-4">
+              Panchvati Hills Homestay began as a small family initiative to
+              welcome travelers seeking peace and spiritual connection. Located
+              near the sacred Mahavatar Babaji Cave in Dunagiri, our homestay
+              blends traditional Kumaoni hospitality with comfortable modern
+              amenities.
+            </p>
+            <p class="text-gray-700 mb-4">
+              We are a family-run homestay — hosts who love cooking, guiding
+              guests to nearby attractions, and sharing local stories. Our goal:
+              give guests a restful, authentic mountain experience.
+            </p>
+            <ul class="mt-4 space-y-2 text-gray-700">
+              <li>• Family-run homestay with personalized care</li>
+              <li>• Emphasis on cleanliness, comfort and local cuisine</li>
+              <li>• Help with local travel, guides and pickup on request</li>
+            </ul>
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <img
+              src="assets\images\img16.png"
+              alt="owner"
+              class="rounded-xl shadow-md object-cover h-48 w-full"
+            />
+            <img
+              src="assets\images\img18.png"
+              alt="kitchen"
+              class="rounded-xl shadow-md object-cover h-48 w-full"
+            />
+            <img
+              src="assets\images\img19.png"
+              alt="room"
+              class="rounded-xl shadow-md object-cover h-48 w-full"
+            />
+            <img
+              src="assets\images\img2.png"
+              alt="view"
+              class="rounded-xl shadow-md object-cover h-48 w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION/VISION -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-6 md:px-12 max-w-4xl text-center">
+        <h3 class="text-2xl font-bold text-green-700 mb-4">Our Mission</h3>
+        <p class="text-gray-600 mb-6">
+          To create a quiet, caring space where travelers can unplug, experience
+          local culture and find inner calm in nature’s arms.
+        </p>
+
+        <h3 class="text-2xl font-bold text-green-700 mb-4">Our Promise</h3>
+        <p class="text-gray-600">
+          Clean rooms, honest hospitality, warm home-cooked food and local
+          guidance. We welcome people seeking spirituality, nature or a peaceful
+          family getaway.
+        </p>
+      </div>
+    </section>
+
+    <!-- TEAM
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-6 md:px-12">
+        <h3 class="text-3xl font-bold text-green-700 text-center mb-6">
+          Meet the Hosts
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-xl shadow p-6 text-center">
+            <img
+              src="assets\images\img16.png"
+              alt="host1"
+              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+            />
+            <h4 class="font-semibold">Suman Devi</h4>
+            <p class="text-sm text-gray-600">
+              Head cook & host — prepares authentic Kumaoni meals with local
+              ingredients.
+            </p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-6 text-center">
+            <img
+              src="assets\images\img18.png"
+              alt="host2"
+              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+            />
+            <h4 class="font-semibold">Ramesh Singh</h4>
+            <p class="text-sm text-gray-600">
+              Guest relations & local guide — arranges transport and short
+              treks.
+            </p>
+          </div>
+          <div class="bg-white rounded-xl shadow p-6 text-center">
+            <img
+              src="assets\images\img19.png"
+              alt="host3"
+              class="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+            />
+            <h4 class="font-semibold">Anita Devi</h4>
+            <p class="text-sm text-gray-600">
+              Hospitality & guest comfort — ensures rooms and facilities are
+              tidy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- DARK FOOTER (same style) -->
+    <footer class="bg-[#0f1720] text-gray-200 py-12">
+      <div
+        class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10"
+      >
+        <!-- About -->
+        <div>
+          <h5 class="font-bold text-lg text-white mb-3">
+            Panchvati Hills Homestay
+          </h5>
+          <p class="text-sm text-gray-300 max-w-sm">
+            Find Peace Where Gods Once Walked — Dunagiri, Almora. Mountain-view
+            rooms and authentic home-cooked meals.
+          </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Contact</h6>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-phone text-gray-400"></i> 9917833503,
+            9690185111
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-gray-400"></i>
+            panchvatihillshomestay@gmail.com
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-location-dot text-gray-400"></i>
+            Dunagiri, Almora — Near Mahavatar Babaji Cave
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Quick Links</h6>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-info-circle"></i> About</a
+              >
+            </li>
+            <li>
+              <a
+                href="gallery.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-image"></i> Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        class="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-400"
+      >
+        &copy; <span id="yr"></span> Panchvati Hills Homestay. All rights
+        reserved.
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("yr").textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+      menuBtn.addEventListener("click", () => menu.classList.toggle("hidden"));
+      document.getElementById("yr2").innerText = new Date().getFullYear();
+    </script>
+  </body>
+</html>

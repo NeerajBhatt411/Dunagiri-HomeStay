@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gallery — Panchvati Hills Homestay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="font-sans bg-gray-50 text-gray-800">
+    <!-- header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-6 md:px-12 flex items-center justify-between py-4"
+      >
+        <a href="index.html" class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 rounded-full bg-green-700 flex items-center justify-center text-white font-bold"
+          >
+            PH
+          </div>
+          <div>
+            <h1 class="text-xl md:text-2xl font-bold text-green-700">
+              Panchvati Hills Homestay
+            </h1>
+            <p class="text-xs text-gray-500 -mt-1">
+              Find Peace Where Gods Once Walked
+            </p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center space-x-6 font-medium">
+          <a href="index.html" class="text-gray-800 hover:text-green-600"
+            >Home</a
+          >
+          <a href="about.html" class="text-gray-800 hover:text-green-600"
+            >About</a
+          >
+          <a href="gallery.html" class="text-gray-800 hover:text-green-600"
+            >Gallery</a
+          >
+          <a href="contact.html" class="text-gray-800 hover:text-green-600"
+            >Contact</a
+          >
+        </nav>
+
+        <button id="menu-btn" class="md:hidden">
+          <svg
+            class="w-6 h-6 text-green-700"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div id="menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-6 pb-4 pt-3 space-y-2">
+          <a href="index.html" class="block font-medium">Home</a>
+          <a href="about.html" class="block font-medium">About</a>
+          <a href="gallery.html" class="block font-medium">Gallery</a>
+          <a href="contact.html" class="block font-medium">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- GALLERY -->
+    <!-- GALLERY -->
+    <section class="py-16">
+      <div class="container mx-auto px-6 md:px-12">
+        <h2 class="text-3xl text-green-700 font-bold text-center mb-6">
+          Gallery
+        </h2>
+        <p class="text-center text-gray-600 mb-8">
+          A glimpse of our homestay — cozy rooms, peaceful views, and moments
+          close to nature.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <!-- image cards -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img16.png"
+          >
+            <img
+              src="assets/images/img16.png"
+              alt="room"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img17.png"
+          >
+            <img
+              src="assets/images/img17.png"
+              alt="exterior"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img18.png"
+          >
+            <img
+              src="assets/images/img18.png"
+              alt="balcony"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img19.png"
+          >
+            <img
+              src="assets/images/img19.png"
+              alt="dining"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img20.png"
+          >
+            <img
+              src="assets/images/img20.png"
+              alt="bonfire"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img21.png"
+          >
+            <img
+              src="assets/images/img21.png"
+              alt="mountain"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img22.png"
+          >
+            <img
+              src="assets/images/img22.png"
+              alt="nature"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img23.png"
+          >
+            <img
+              src="assets/images/img23.png"
+              alt="view"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img24.png"
+          >
+            <img
+              src="assets/images/img24.png"
+              alt="sunset"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img1.png"
+          >
+            <img
+              src="assets/images/img1.png"
+              alt="Image 1"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 2 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img2.png"
+          >
+            <img
+              src="assets/images/img2.png"
+              alt="Image 2"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 3 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img3.png"
+          >
+            <img
+              src="assets/images/img3.png"
+              alt="Image 3"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 4 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img4.png"
+          >
+            <img
+              src="assets/images/img4.png"
+              alt="Image 4"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 5 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img5.png"
+          >
+            <img
+              src="assets/images/img5.png"
+              alt="Image 5"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 6 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img6.png"
+          >
+            <img
+              src="assets/images/img6.png"
+              alt="Image 6"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 7 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img7.png"
+          >
+            <img
+              src="assets/images/img7.png"
+              alt="Image 7"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 8 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img8.png"
+          >
+            <img
+              src="assets/images/img8.png"
+              alt="Image 8"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 9 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img9.png"
+          >
+            <img
+              src="assets/images/img9.png"
+              alt="Image 9"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 10 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img10.png"
+          >
+            <img
+              src="assets/images/img10.png"
+              alt="Image 10"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 11 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img11.png"
+          >
+            <img
+              src="assets/images/img11.png"
+              alt="Image 11"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 12 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img12.png"
+          >
+            <img
+              src="assets/images/img12.png"
+              alt="Image 12"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 13 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img13.png"
+          >
+            <img
+              src="assets/images/img13.png"
+              alt="Image 13"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 14 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img14.png"
+          >
+            <img
+              src="assets/images/img14.png"
+              alt="Image 14"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+          <!-- 15 -->
+          <button
+            class="gallery-item group rounded-lg overflow-hidden shadow"
+            data-src="assets/images/img15.png"
+          >
+            <img
+              src="assets/images/img15.png"
+              alt="Image 15"
+              class="w-full h-60 object-cover group-hover:scale-105 transition"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMPLE MODAL -->
+    <div
+      id="modal"
+      class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50"
+    >
+      <div class="max-w-4xl w-full px-4">
+        <div class="bg-white rounded-lg overflow-hidden">
+          <div class="p-2 flex justify-end">
+            <button id="modal-close" class="text-gray-600 hover:text-gray-900">
+              Close
+            </button>
+          </div>
+          <img
+            id="modal-img"
+            src=""
+            alt="large"
+            class="w-full h-[70vh] object-contain bg-black"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- DARK FOOTER -->
+    <footer class="bg-[#0f1720] text-gray-200 py-12">
+      <div
+        class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10"
+      >
+        <!-- About -->
+        <div>
+          <h5 class="font-bold text-lg text-white mb-3">
+            Panchvati Hills Homestay
+          </h5>
+          <p class="text-sm text-gray-300 max-w-sm">
+            Find Peace Where Gods Once Walked — Dunagiri, Almora. Mountain-view
+            rooms and authentic home-cooked meals.
+          </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Contact</h6>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-phone text-gray-400"></i> 9917833503,
+            9690185111
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-gray-400"></i>
+            panchvatihillshomestay@gmail.com
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-location-dot text-gray-400"></i>
+            Dunagiri, Almora — Near Mahavatar Babaji Cave
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Quick Links</h6>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-info-circle"></i> About</a
+              >
+            </li>
+            <li>
+              <a
+                href="gallery.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-image"></i> Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        class="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-400"
+      >
+        &copy; <span id="yr"></span> Panchvati Hills Homestay. All rights
+        reserved.
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("yr").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

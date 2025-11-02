@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Panchvati Hills Homestay — Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body class="font-sans bg-gray-50 text-gray-800">
+    <!-- NAVBAR -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="container mx-auto px-6 md:px-12 flex items-center justify-between py-4"
+      >
+        <a href="index.html" class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 rounded-full bg-green-700 flex items-center justify-center text-white font-bold"
+          >
+            PH
+          </div>
+          <div>
+            <h1 class="text-xl md:text-2xl font-bold text-green-700">
+              Panchvati Hills Homestay
+            </h1>
+            <p class="text-xs text-gray-500 -mt-1">
+              Find Peace Where Gods Once Walked
+            </p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center space-x-6 font-medium">
+          <a href="index.html" class="text-gray-800 hover:text-green-600"
+            >Home</a
+          >
+          <a href="about.html" class="text-gray-800 hover:text-green-600"
+            >About</a
+          >
+          <a href="gallery.html" class="text-gray-800 hover:text-green-600"
+            >Gallery</a
+          >
+          <a href="contact.html" class="text-gray-800 hover:text-green-600"
+            >Contact</a
+          >
+        </nav>
+
+        <button id="menu-btn" class="md:hidden">
+          <svg
+            class="w-6 h-6 text-green-700"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <div id="menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-6 pb-4 pt-3 space-y-2">
+          <a href="index.html" class="block font-medium">Home</a>
+          <a href="about.html" class="block font-medium">About</a>
+          <a href="gallery.html" class="block font-medium">Gallery</a>
+          <a href="contact.html" class="block font-medium">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section
+      class="relative h-[85vh] bg-cover bg-center"
+      style="background-image: url('assets/images/img18.png')"
+    >
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div
+        class="relative z-10 container mx-auto px-6 md:px-12 h-full flex flex-col justify-center"
+      >
+        <div class="max-w-3xl text-center mx-auto text-white">
+          <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+            Find Peace Where Gods Once Walked
+          </h2>
+          <p class="mb-8 text-lg md:text-xl">
+            Panchvati Hills Homestay — nestled in Dunagiri, Almora.
+            Mountain-view rooms, home-cooked meals, and warm Kumaoni hospitality
+            near Mahavatar Babaji Cave.
+          </p>
+          <div class="flex justify-center gap-4">
+            <a
+              href="contact.html"
+              class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold"
+              >Book Now</a
+            >
+            <a
+              href="#services"
+              class="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold"
+              >Our Services</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-20 bg-white">
+      <div class="container mx-auto px-6 md:px-12">
+        <h3 class="text-3xl font-bold text-green-700 text-center mb-4">
+          What We Offer
+        </h3>
+        <p class="text-center max-w-2xl mx-auto text-gray-600 mb-12">
+          Comfort, calm and authentic home-style meals — everything to make your
+          stay peaceful and memorable.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition"
+          >
+            <h4 class="font-semibold text-lg mb-3 text-green-700">
+              Mountain-View Rooms
+            </h4>
+            <p class="text-sm text-gray-600">
+              Cozy rooms with large windows and balcony views of the Himalayas.
+              Clean linen & warm blankets provided.
+            </p>
+          </div>
+
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition"
+          >
+            <h4 class="font-semibold text-lg mb-3 text-green-700">
+              Home-Cooked Meals
+            </h4>
+            <p class="text-sm text-gray-600">
+              Authentic Kumaoni meals prepared with local ingredients and love —
+              breakfast, lunch and dinner available on request.
+            </p>
+          </div>
+
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition"
+          >
+            <h4 class="font-semibold text-lg mb-3 text-green-700">
+              Local Experiences
+            </h4>
+            <p class="text-sm text-gray-600">
+              Guided short treks, visits to Mahavatar Babaji Cave, bonfire
+              evenings, and local storytelling sessions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6 md:px-12">
+        <h2 class="text-3xl text-green-700 font-bold text-center mb-4">
+          Gallery
+        </h2>
+        <p class="text-center text-gray-600 mb-10">
+          A glimpse of our homestay — cozy rooms, peaceful views, and moments
+          close to nature.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+          <img
+            src="assets/images/img1.png"
+            alt="Gallery 1"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+          <img
+            src="assets/images/img2.png"
+            alt="Gallery 2"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+          <img
+            src="assets/images/img3.png"
+            alt="Gallery 3"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+          <img
+            src="assets/images/img4.png"
+            alt="Gallery 4"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+          <img
+            src="assets/images/img5.png"
+            alt="Gallery 5"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+          <img
+            src="assets/images/img6.png"
+            alt="Gallery 6"
+            class="w-full h-60 object-cover rounded-lg shadow hover:scale-105 transition"
+          />
+        </div>
+
+        <div class="text-center">
+          <a
+            href="gallery.html"
+            class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition"
+          >
+            Explore More
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6 md:px-12 text-center">
+        <h3 class="text-3xl font-bold text-green-700 mb-6">Guest Reviews</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition flex flex-col items-center"
+          >
+            <img
+              src="assets\images\pawan.jpg"
+              alt="Guest 1"
+              class="w-16 h-16 rounded-full object-cover mb-4"
+            />
+            <p class="text-gray-700 mb-4 italic">
+              “A heavenly stay — peaceful mornings, delicious meals and kind
+              hosts. The view from the balcony was unforgettable.”
+            </p>
+            <p class="font-semibold text-green-700">— Pawan Singh , Dehradun</p>
+          </div>
+
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition flex flex-col items-center"
+          >
+            <img
+              src="assets\images\neerajbhatt.png"
+              alt="Guest 2"
+              class="w-16 h-16 rounded-full object-cover mb-4"
+            />
+            <p class="text-gray-700 mb-4 italic">
+              “Beautiful homestay with comfortable rooms and a warm, welcoming
+              host. Highly recommended for a relaxing stay!”
+            </p>
+            <p class="font-semibold text-green-700">— Neeraj, Noida</p>
+          </div>
+
+          <div
+            class="p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition flex flex-col items-center"
+          >
+            <img
+              src="assets\images\sarah_image.png"
+              alt="Guest 3"
+              class="w-16 h-16 rounded-full object-cover mb-4"
+            />
+            <p class="text-gray-700 mb-4 italic">
+              “Food felt like home. Highly recommended for spiritual seekers and
+              nature lovers.”
+            </p>
+            <p class="font-semibold text-green-700">— Meera, Jaipur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section
+      class="py-16 bg-gradient-to-r from-green-600 to-green-700 text-white"
+    >
+      <div
+        class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between"
+      >
+        <div>
+          <h4 class="text-2xl font-bold mb-2">
+            Ready to Visit Panchvati Hills?
+          </h4>
+          <p class="text-sm opacity-90">
+            Call us:9690185111 / 99178333503 • Email:
+            panchvatihillshomestay@gmail.com
+          </p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <a
+            href="contact.html"
+            class="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+          >
+            Contact & Book
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0f1720] text-gray-200 py-12">
+      <div
+        class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10"
+      >
+        <!-- About -->
+        <div>
+          <h5 class="font-bold text-lg text-white mb-3">
+            Panchvati Hills Homestay
+          </h5>
+          <p class="text-sm text-gray-300 max-w-sm">
+            Find Peace Where Gods Once Walked — Dunagiri, Almora. Mountain-view
+            rooms and authentic home-cooked meals.
+          </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Contact</h6>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-phone text-gray-400"></i> 9917833503,
+            9690185111
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-gray-400"></i>
+            panchvatihillshomestay@gmail.com
+          </p>
+          <p class="text-sm text-gray-300 flex items-center gap-2">
+            <i class="fa-solid fa-location-dot text-gray-400"></i>
+            Dunagiri, Almora — Near Mahavatar Babaji Cave
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h6 class="font-semibold text-white mb-3">Quick Links</h6>
+          <ul class="space-y-2 text-sm text-gray-300">
+            <li>
+              <a
+                href="index.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-info-circle"></i> About</a
+              >
+            </li>
+            <li>
+              <a
+                href="gallery.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-image"></i> Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="hover:text-white flex items-center gap-2"
+                ><i class="fa-solid fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        class="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-400"
+      >
+        &copy; <span id="yr"></span> Panchvati Hills Homestay. All rights
+        reserved.
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("yr").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- WHATSAPP BUTTON -->
+    <a
+      href="https://wa.me/9410766002?text=Hi%20Panchvati%20Hills%20Homestay%2C%20I%20would%20like%20to%20book%20a%20room!"
+      target="_blank"
+      class="fixed bottom-5 right-5 bg-green-600 hover:bg-green-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform transform hover:scale-110"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/124/124034.png"
+        alt="WhatsApp"
+        class="w-8 h-8"
+      />
+    </a>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+      menuBtn.addEventListener("click", () => menu.classList.toggle("hidden"));
+      document.getElementById("yr").innerText = new Date().getFullYear();
+    </script>
+  </body>
+</html>
